@@ -8,8 +8,8 @@ import (
 
 func main() {
 
-	numbers := getNumbersInRange(100)
-	selectedNumbers := getRandonNumbers(numbers, 3)
+	numbers := getNumbersInRange(1000)
+	selectedNumbers := getRandonNumbers(numbers, 10)
 	countDown()
 	fmt.Println("Aqui estão os números sorteados: ", selectedNumbers)
 	fmt.Scanln()
